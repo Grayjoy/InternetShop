@@ -2,7 +2,7 @@ package InternetStore;
 
 public class Product {
     private String name;
-    private double price;
+    private int price;
     private String type;
     private int id;
 
@@ -33,7 +33,7 @@ public class Product {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(int price) {
 
         this.price = price;
     }

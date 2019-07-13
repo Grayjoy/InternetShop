@@ -44,11 +44,8 @@ public class Order {
         endlessCycle = false;
     }
 
-
-    public void deleteProduct() {
-    }
-
     public void buy() {
+
     }
 
 

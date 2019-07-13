@@ -27,7 +27,8 @@ public class InternetShopDemo {
 
 
                 case ("2"):
-                    customer.mainUser(seller.sellerPerson);
+                    bankCard.logic();
+                    customer.mainUser(seller.sellerPerson,bankCard);
                     break;
 
                 case ("3") :

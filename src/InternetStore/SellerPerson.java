@@ -20,7 +20,7 @@ public class SellerPerson {
         product.setName(scanner.nextLine());
 
         System.out.println("Enter price");
-        product.setPrice(scanner.nextDouble());
+        product.setPrice(scanner.nextInt());
         scanner.nextLine();
 
         System.out.println("Enter type");
